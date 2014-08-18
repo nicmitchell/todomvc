@@ -17,13 +17,15 @@ var app = new EmberApp();
 // please specify an object with the list of modules as keys
 // along with the exports of each module as its value.
 
+app.import("vendor/ember-localstorage-adapter/localstorage_adapter.js");
+
 module.exports = app.toTree();
 
-app.import({
-  development: 'vendor/ember-data/ember-data.js',
-  production:  'vendor/ember-data/ember-data.prod.js'
-}, {
-  'ember-data': [
-    'default'
-  ]
-});
+// app.import({
+//  development: 'vendor/ember-data/ember-data.js',
+//  production:  'vendor/ember-data/ember-data.prod.js'
+// }, {
+//  'ember-data': [
+//    'default'
+//  ]
+//});
