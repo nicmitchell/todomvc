@@ -1,6 +1,12 @@
 # Todo
 
-This README outlines the details of collaborating on this Ember application.
+The Todo MVC app for Ember built on Ember-CLI.
+
+Todo MVC: 
+[http://todomvc.com/architecture-examples/emberjs/](http://todomvc.com/architecture-examples/emberjs/)
+
+Ember-CLI: 
+[http://iamstef.net/ember-cli/](http://iamstef.net/ember-cli/).
 
 ## Installation
 
@@ -22,4 +28,4 @@ This README outlines the details of collaborating on this Ember application.
 
 * `ember build`
 
-For more information on using ember-cli, visit [http://iamstef.net/ember-cli/](http://iamstef.net/ember-cli/).
+
